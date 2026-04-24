@@ -25,4 +25,29 @@
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
+    
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="sn.esmt.financetrack.ui.categories.CategoriesFragment"
+        android:label="Catégories"
+        tools:layout="@layout/fragment_categories">
+        
+        <action
+            android:id="@+id/action_categories_to_rubriques"
+            app:destination="@id/rubriquesFragment" />
+    </fragment>
+    
+    <fragment
+        android:id="@+id/rubriquesFragment"
+        android:name="sn.esmt.financetrack.ui.rubriques.RubriquesFragment"
+        android:label="Rubriques"
+        tools:layout="@layout/fragment_rubriques">
+        <argument
+            android:name="categorieId"
+            app:argType="integer" />
+        <argument
+            android:name="categorieNom"
+            app:argType="string" />
+    </fragment>
+    
 </navigation>
