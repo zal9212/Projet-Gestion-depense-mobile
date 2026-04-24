@@ -1,15 +1,8 @@
+# Android Studio / Gradle
+.gradle/
+**/build/
+captures/
 *.iml
-.gradle
-/local.properties
-/.idea
+.idea/
+local.properties
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-
-# Project specific
-FinanceTrack/.gradle/
-FinanceTrack/app/build/
-FinanceTrack/local.properties
-FinanceTrack/.idea/
