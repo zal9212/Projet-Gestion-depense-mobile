@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="sn.esmt.financetrack.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="sn.esmt.financetrack.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="sn.esmt.financetrack.ui.categories.CategoriesFragment"
+        android:label="Catégories"
+        tools:layout="@layout/fragment_categories">
+        
+        <action
+            android:id="@+id/action_categories_to_rubriques"
+            app:destination="@id/rubriquesFragment" />
+    </fragment>
+    
+    <fragment
+        android:id="@+id/rubriquesFragment"
+        android:name="sn.esmt.financetrack.ui.rubriques.RubriquesFragment"
+        android:label="Rubriques"
+        tools:layout="@layout/fragment_rubriques">
+        <argument
+            android:name="categorieId"
+            app:argType="integer" />
+        <argument
+            android:name="categorieNom"
+            app:argType="string" />
+    </fragment>
+    
+</navigation>

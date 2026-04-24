@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:gravity="center_vertical">
+
+        <!-- L'icône dans un cercle coloré -->
+        <TextView
+            android:id="@+id/tvIcone"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:background="@drawable/bg_circle"
+            android:layout_marginEnd="16dp"/>
+
+        <!-- Le nom de la catégorie (en bleu marine) -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvNomCategorie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"/>
+
+            <TextView
+                android:id="@+id/tvNbRubriques"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="Rubriques"
+                android:textColor="#757575"/>
+        </LinearLayout>
+
+        <!-- Bouton Modifier (vert) -->
+        <ImageButton
+            android:id="@+id/btnEditCategorie"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@android:drawable/ic_menu_edit"
+            app:tint="@color/vert"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Modifier"/>
+
+        <!-- Bouton Supprimer (orange) -->
+        <ImageButton
+            android:id="@+id/btnDeleteCategorie"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@android:drawable/ic_menu_delete"
+            app:tint="@color/orange"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Supprimer"
+            android:layout_marginStart="4dp"/>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
