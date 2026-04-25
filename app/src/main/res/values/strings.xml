@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FinanceTrack</string>
+    <string name="acceuil">Acceuil</string>
+    <string name="depenses">Dépenses</string>
+    <string name="revenus">Révenus</string>
+    <string name="budget">Budgets</string>
+    <string name="categories">Catégories</string>
+    <string name="title_budget">Gestion des Budgets</string>
+    <string name="title_categorie">Gestion des Catégories</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Suivant</string>
+    <string name="previous">Précédent</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet...</string>
+</resources>
