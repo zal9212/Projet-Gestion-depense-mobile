@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         
         // On configure la Toolbar pour qu'elle connaisse les 4 destinations principales (pas de bouton retour pour celles-ci)
         appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.FirstFragment, R.id.SecondFragment, R.id.categoriesFragment)
+                R.id.FirstFragment, R.id.SecondFragment, R.id.revenusFragment, R.id.categoriesFragment)
                 .build();
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         

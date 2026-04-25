@@ -10,4 +10,13 @@
     <string name="depenses">Dépenses</string>
     <string name="revenus">Révenus</string>
     <string name="budget">Budgets</string>
+    <string name="login_title">Connexion</string>
+    <string name="login_welcome">Bienvenue sur FinanceTrack</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Mot de passe</string>
+    <string name="login_button">Se connecter</string>
+    <string name="login_forgot_password">Mot de passe oublié ?</string>
+    <string name="login_signup">Pas encore de compte ? S\'inscrire</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

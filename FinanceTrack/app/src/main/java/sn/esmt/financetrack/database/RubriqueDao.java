@@ -23,7 +23,9 @@ public interface RubriqueDao {
     @Delete
     void deleteRubrique(Rubrique rubrique);
 
-    // On récupère toutes les rubriques liées à une catégorie spécifique
     @Query("SELECT * FROM rubriques WHERE categorieId = :categorieId ORDER BY nom ASC")
     LiveData<List<Rubrique>> getRubriquesByCategorie(int categorieId);
+
+    @Query("SELECT * FROM rubriques ORDER BY nom ASC")
+    LiveData<List<Rubrique>> getAllRubriques();
 }

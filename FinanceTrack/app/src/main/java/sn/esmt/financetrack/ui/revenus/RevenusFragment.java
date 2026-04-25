@@ -1,0 +1,113 @@
+package sn.esmt.financetrack.ui.revenus;
+
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
+import androidx.fragment.app.Fragment;
+import androidx.lifecycle.ViewModelProvider;
+import androidx.recyclerview.widget.LinearLayoutManager;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import sn.esmt.financetrack.R;
+import sn.esmt.financetrack.adapter.TransactionAdapter;
+import sn.esmt.financetrack.databinding.DialogAddTransactionBinding;
+import sn.esmt.financetrack.databinding.FragmentRevenusBinding;
+import sn.esmt.financetrack.model.Rubrique;
+import sn.esmt.financetrack.model.Transaction;
+import sn.esmt.financetrack.viewmodel.RubriqueViewModel;
+import sn.esmt.financetrack.viewmodel.TransactionViewModel;
+
+public class RevenusFragment extends Fragment {
+
+    private FragmentRevenusBinding binding;
+    private TransactionViewModel transactionViewModel;
+    private RubriqueViewModel rubriqueViewModel;
+    private TransactionAdapter adapter;
+    private List<Rubrique> rubriquesList = new ArrayList<>();
+
+    @Nullable
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        binding = FragmentRevenusBinding.inflate(inflater, container, false);
+        return binding.getRoot();
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        adapter = new TransactionAdapter();
+        binding.rvRevenus.setLayoutManager(new LinearLayoutManager(getContext()));
+        binding.rvRevenus.setAdapter(adapter);
+
+        transactionViewModel = new ViewModelProvider(this).get(TransactionViewModel.class);
+        rubriqueViewModel = new ViewModelProvider(this).get(RubriqueViewModel.class);
+
+        transactionViewModel.getTransactionsByType("REVENU").observe(getViewLifecycleOwner(), transactions -> {
+            adapter.setTransactions(transactions);
+            double total = 0;
+            for (Transaction t : transactions) total += t.getMontant();
+            binding.tvTotalRevenus.setText(String.format("%.2f CFA", total));
+        });
+
+        rubriqueViewModel.getAllRubriques().observe(getViewLifecycleOwner(), rubriques -> {
+            this.rubriquesList = rubriques;
+        });
+
+        binding.fabAddRevenu.setOnClickListener(v -> {
+            androidx.navigation.Navigation.findNavController(v).navigate(R.id.action_revenus_to_addRevenus);
+        });
+    }
+
+    private void showAddRevenuDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(requireContext());
+        DialogAddTransactionBinding dialogBinding = DialogAddTransactionBinding.inflate(getLayoutInflater());
+        builder.setView(dialogBinding.getRoot());
+        
+        dialogBinding.tvDialogTitle.setText("Nouveau Revenu");
+
+        List<String> rubriqueNoms = new ArrayList<>();
+        for (Rubrique r : rubriquesList) rubriqueNoms.add(r.getNom());
+        
+        ArrayAdapter<String> spinnerAdapter = new ArrayAdapter<>(requireContext(), android.R.layout.simple_spinner_item, rubriqueNoms);
+        spinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        dialogBinding.spinnerRubriques.setAdapter(spinnerAdapter);
+
+        AlertDialog dialog = builder.create();
+
+        dialogBinding.btnSave.setOnClickListener(v -> {
+            String montantStr = dialogBinding.etMontant.getText().toString();
+            String description = dialogBinding.etDescription.getText().toString();
+            int selectedPos = dialogBinding.spinnerRubriques.getSelectedItemPosition();
+
+            if (montantStr.isEmpty() || description.isEmpty() || selectedPos == -1) {
+                Toast.makeText(getContext(), "Veuillez remplir tous les champs", Toast.LENGTH_SHORT).show();
+                return;
+            }
+
+            double montant = Double.parseDouble(montantStr);
+            int rubriqueId = rubriquesList.get(selectedPos).getId();
+
+            Transaction transaction = new Transaction(montant, description, System.currentTimeMillis(), "REVENU", rubriqueId);
+            transactionViewModel.insert(transaction);
+            dialog.dismiss();
+        });
+
+        dialog.show();
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        binding = null;
+    }
+}

@@ -20,6 +20,10 @@ public class RubriqueRepository {
         return rubriqueDao.getRubriquesByCategorie(categorieId);
     }
 
+    public LiveData<List<Rubrique>> getAllRubriques() {
+        return rubriqueDao.getAllRubriques();
+    }
+
     public void insert(Rubrique rubrique) {
         AppDatabase.databaseWriteExecutor.execute(() -> {
             rubriqueDao.insertRubrique(rubrique);

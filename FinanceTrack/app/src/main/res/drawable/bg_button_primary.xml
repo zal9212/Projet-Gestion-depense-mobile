@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#40FFFFFF">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/primary" />
+            <corners android:radius="1000dp" />
+            <!-- Subtle inner glow simulated with a stroke if needed, but spec says 1px top-stroke 10% white -->
+            <!-- We can't easily do "top-only" stroke in simple shape, so we skip or use a layer-list -->
+        </shape>
+    </item>
+</ripple>

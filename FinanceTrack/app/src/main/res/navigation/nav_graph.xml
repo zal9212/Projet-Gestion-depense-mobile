@@ -7,24 +7,31 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="sn.esmt.financetrack.FirstFragment"
-        android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
+        android:name="sn.esmt.financetrack.ui.accueil.AccueilFragment"
+        android:label="Accueil"
+        tools:layout="@layout/fragment_accueil" />
 
-        <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
-    </fragment>
     <fragment
         android:id="@+id/SecondFragment"
-        android:name="sn.esmt.financetrack.SecondFragment"
-        android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
+        android:name="sn.esmt.financetrack.ui.depenses.DepensesFragment"
+        android:label="Dépenses"
+        tools:layout="@layout/fragment_depenses" />
 
+    <fragment
+        android:id="@+id/revenusFragment"
+        android:name="sn.esmt.financetrack.ui.revenus.RevenusFragment"
+        android:label="Revenus"
+        tools:layout="@layout/fragment_revenus">
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            android:id="@+id/action_revenus_to_addRevenus"
+            app:destination="@id/addRevenusFragment" />
     </fragment>
+    
+    <fragment
+        android:id="@+id/addRevenusFragment"
+        android:name="sn.esmt.financetrack.AddRevenus"
+        android:label="Ajouter Revenu"
+        tools:layout="@layout/fragment_add_revenus" />
     
     <fragment
         android:id="@+id/categoriesFragment"

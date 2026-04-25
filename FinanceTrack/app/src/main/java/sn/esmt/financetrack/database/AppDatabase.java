@@ -11,12 +11,14 @@ import java.util.concurrent.Executors;
 
 import sn.esmt.financetrack.model.Categorie;
 import sn.esmt.financetrack.model.Rubrique;
+import sn.esmt.financetrack.model.Transaction;
 
-@Database(entities = {Categorie.class, Rubrique.class}, version = 1, exportSchema = false)
+@Database(entities = {Categorie.class, Rubrique.class, Transaction.class}, version = 2, exportSchema = false)
 public abstract class AppDatabase extends RoomDatabase {
 
     public abstract CategorieDao categorieDao();
     public abstract RubriqueDao rubriqueDao();
+    public abstract TransactionDao transactionDao();
 
     private static volatile AppDatabase INSTANCE;
     private static final int NUMBER_OF_THREADS = 4;

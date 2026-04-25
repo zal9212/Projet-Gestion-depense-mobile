@@ -6,4 +6,19 @@
     <color name="orange">#FF7F50</color>
     <color name="vert">#10B981</color>
     <color name="neutral">#F1F3F4</color>
+
+    <!-- Savanna Editorial Tokens -->
+    <color name="surface">#F9F9F9</color>
+    <color name="surface_container_low">#F3F3F3</color>
+    <color name="surface_container_lowest">#FFFFFF</color>
+    <color name="surface_container_high">#E8E8E8</color>
+    <color name="surface_container_highest">#E0E0E0</color>
+    <color name="primary">#005440</color>
+    <color name="primary_container">#0F6E56</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_surface">#1A1C1C</color>
+    <color name="on_surface_variant">#444746</color>
+    <color name="secondary">#3E6A00</color>
+    <color name="error_red">#BA1A1A</color>
+    <color name="outline_variant_ghost">#26C4C7C5</color> <!-- 15% opacity -->
 </resources>

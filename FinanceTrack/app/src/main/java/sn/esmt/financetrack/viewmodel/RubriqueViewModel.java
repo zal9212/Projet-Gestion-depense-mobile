@@ -24,6 +24,10 @@ public class RubriqueViewModel extends AndroidViewModel {
         return repository.getRubriquesByCategorie(categorieId);
     }
 
+    public LiveData<List<Rubrique>> getAllRubriques() {
+        return repository.getAllRubriques();
+    }
+
     public void addRubrique(int categorieId, String nom) {
         Rubrique rubrique = new Rubrique(categorieId, nom);
         repository.insert(rubrique);
