@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_welcome">
+
+    <fragment
+        android:id="@+id/navigation_welcome"
+        android:name="com.tp.gestiondepenses.ui.fragments.WelcomeFragment"
+        android:label="Bienvenue"
+        tools:layout="@layout/fragment_welcome" />
+
+    <fragment
+        android:id="@+id/navigation_auth"
+        android:name="com.tp.gestiondepenses.ui.fragments.AuthFragment"
+        android:label="Authentification"
+        tools:layout="@layout/fragment_auth" />
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.tp.gestiondepenses.ui.fragments.DashboardFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_depenses"
+        android:name="com.tp.gestiondepenses.ui.fragments.DepensesFragment"
+        android:label="@string/title_depenses" />
+
+    <fragment
+        android:id="@+id/navigation_revenus"
+        android:name="com.tp.gestiondepenses.ui.fragments.RevenusFragment"
+        android:label="@string/title_revenus" />
+
+    <fragment
+        android:id="@+id/navigation_budgets"
+        android:name="com.tp.gestiondepenses.ui.fragments.BudgetsFragment"
+        android:label="@string/title_budgets" />
+
+    <fragment
+        android:id="@+id/navigation_add_depense"
+        android:name="com.tp.gestiondepenses.ui.fragments.AddDepenseFragment"
+        android:label="Nouvelle Dépense">
+        <argument
+            android:name="transactionId"
+            app:argType="integer"
+            android:defaultValue="-1" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_add_revenu"
+        android:name="com.tp.gestiondepenses.ui.fragments.AddRevenuFragment"
+        android:label="Nouveau Revenu">
+        <argument
+            android:name="transactionId"
+            app:argType="integer"
+            android:defaultValue="-1" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_add_budget"
+        android:name="com.tp.gestiondepenses.ui.fragments.AddBudgetFragment"
+        android:label="Nouveau Budget" />
+
+    <fragment
+        android:id="@+id/navigation_categories"
+        android:name="com.tp.gestiondepenses.ui.fragments.CategoriesFragment"
+        android:label="Catégories" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.tp.gestiondepenses.ui.fragments.SettingsFragment"
+        android:label="Paramètres" />
+
+    <fragment
+        android:id="@+id/navigation_transaction_detail"
+        android:name="com.tp.gestiondepenses.ui.fragments.TransactionDetailFragment"
+        android:label="Détails de l'opération">
+        <argument
+            android:name="transactionId"
+            app:argType="integer" />
+        <argument
+            android:name="type"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_add_categorie"
+        android:name="com.tp.gestiondepenses.ui.fragments.AddCategorieFragment"
+        android:label="Nouvelle Catégorie" />
+</navigation>

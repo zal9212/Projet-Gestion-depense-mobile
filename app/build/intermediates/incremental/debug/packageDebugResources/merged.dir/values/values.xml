@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_blue">#1E88E5</color>
+    <color name="accent_green">#1E88E5</color>
+    <color name="background">#F4F5F7</color>
+    <color name="black">#FF000000</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="expense">#EF4444</color>
+    <color name="header_bg">#181818</color>
+    <color name="icon_expense_bg">#1AEF4444</color>
+    <color name="icon_income_bg">#1A059669</color>
+    <color name="income">#059669</color>
+    <color name="input_bg">#E8E8E8</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="text_primary">#181818</color>
+    <color name="text_secondary">#8E8E93</color>
+    <color name="text_white_muted">#A0A0A5</color>
+    <color name="warning">#F59E0B</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_10">#1AFFFFFF</color>
+    <color name="white_20">#33FFFFFF</color>
+    <string name="alertes_budgets">Alertes budgets</string>
+    <string name="all_categories">Toutes catégories</string>
+    <string name="amount_zero">0 FCFA</string>
+    <string name="app_name">FinanceTrack</string>
+    <string name="btn_create_budget">Créer le budget</string>
+    <string name="btn_create_cat">Créer la catégorie</string>
+    <string name="btn_delete">Supprimer</string>
+    <string name="btn_edit">Modifier</string>
+    <string name="btn_pick_date">Choisir la date</string>
+    <string name="btn_reset_data">Réinitialiser toutes les données</string>
+    <string name="btn_save">Enregistrer</string>
+    <string name="dernieres_transactions">Dernières transactions</string>
+    <string name="empty_state_transactions">Aucune transaction ce mois</string>
+    <string name="greeting_default">Bonjour !</string>
+    <string name="greeting_format">Bonjour %1$s !</string>
+    <string name="hint_username">Votre nom</string>
+    <string name="income_label">Revenu</string>
+    <string name="label_amount">Montant</string>
+    <string name="label_app_params">Paramètres de l\'application</string>
+    <string name="label_budget_alerts">Alertes de budget</string>
+    <string name="label_budget_limit">Montant Plafond</string>
+    <string name="label_category">Catégorie</string>
+    <string name="label_dark_mode">Mode sombre</string>
+    <string name="label_date">Date</string>
+    <string name="label_description">Description</string>
+    <string name="label_enable_notifications">Activer les notifications</string>
+    <string name="label_note">Note / Description</string>
+    <string name="label_notifications">Notifications</string>
+    <string name="label_payment_method">Moyen de paiement</string>
+    <string name="label_preferred_currency">Devise préférée</string>
+    <string name="label_profile">Profil</string>
+    <string name="label_rubrique">Rubrique</string>
+    <string name="label_source">Source (ex: Salaire)</string>
+    <string name="label_total">Total</string>
+    <string name="label_total_count">Total (%1$d opérations)</string>
+    <string name="msg_budget_saved">Budget créé</string>
+    <string name="msg_category_saved">Catégorie créée</string>
+    <string name="msg_enter_amount">Veuillez entrer un montant</string>
+    <string name="msg_expense_saved">Dépense enregistrée</string>
+    <string name="msg_revenue_saved">Revenu enregistré</string>
+    <string name="none">Aucune</string>
+    <string name="pay_card">Carte</string>
+    <string name="pay_cash">Espèces</string>
+    <string name="pay_mobile">Mobile Money</string>
+    <string name="solde_du_mois">Solde total</string>
+    <string name="source_label">Source</string>
+    <string name="title_budgets">Budgets</string>
+    <string name="title_budgets_tracking">Suivi des Budgets</string>
+    <string name="title_categories">Catégories</string>
+    <string name="title_depenses">Dépenses</string>
+    <string name="title_home">Accueil</string>
+    <string name="title_new_budget">Nouveau Budget</string>
+    <string name="title_new_categorie">Nouvelle Catégorie</string>
+    <string name="title_new_depense">Nouvelle Dépense</string>
+    <string name="title_new_revenu">Nouveau Revenu</string>
+    <string name="title_revenus">Revenus</string>
+    <string name="title_settings">Paramètres</string>
+    <string name="title_transaction_detail">Détails de l\'opération</string>
+    <string name="voir_tout">Voir tout</string>
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="Theme.FinanceTrack" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/accent_blue</item>
+        <item name="colorOnPrimary">@color/black</item>
+        
+        <item name="colorSecondary">@color/accent_blue</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">@color/header_bg</item>
+        
+        <item name="android:windowBackground">@color/background</item>
+        <item name="elevationOverlayEnabled">false</item>
+    </style>
+</resources>

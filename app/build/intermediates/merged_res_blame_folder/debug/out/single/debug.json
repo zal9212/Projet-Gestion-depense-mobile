@@ -1,0 +1,218 @@
+[
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\drawable_ic_nav_budgets.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\drawable\\ic_nav_budgets.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\drawable_ic_plus.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\drawable\\ic_plus.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\layout_fragment_auth.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\fragment_auth.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\drawable_bg_action_card_green.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\drawable\\bg_action_card_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\layout_item_legend.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\item_legend.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\drawable_ic_back.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\drawable\\ic_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\drawable_custom_progress_bar.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\drawable\\custom_progress_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\color_bottom_nav_color_state.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\color\\bottom_nav_color_state.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\layout_fragment_add_depense.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\fragment_add_depense.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\drawable_ic_nav_revenus.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\drawable\\ic_nav_revenus.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\layout_fragment_welcome.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\fragment_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\drawable_bg_dot.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\drawable\\bg_dot.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\layout_fragment_add_budget.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\fragment_add_budget.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\drawable_bg_header_rounded.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\drawable\\bg_header_rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\drawable_ic_app_logo.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\drawable\\ic_app_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\layout_fragment_categories.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\fragment_categories.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\layout_item_onboarding.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\item_onboarding.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\drawable_tab_indicator_selected.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\drawable\\tab_indicator_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\layout_item_budget.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\item_budget.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\drawable_ic_nav_depenses.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\drawable\\ic_nav_depenses.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\layout_fragment_budgets.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\fragment_budgets.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\drawable_ic_calendar.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\drawable\\ic_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\drawable_bg_action_card.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\drawable\\bg_action_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\layout_item_transaction.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\item_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\layout_item_rubrique_manage.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\item_rubrique_manage.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\drawable_ic_nav_home.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\drawable\\ic_nav_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\drawable_bg_action_icon_categories.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\drawable\\bg_action_icon_categories.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\drawable_ic_dot.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\drawable\\ic_dot.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\layout_fragment_add_categorie.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\fragment_add_categorie.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\drawable_bg_action_icon_budgets.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\drawable\\bg_action_icon_budgets.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\drawable_bg_input_rounded.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\drawable\\bg_input_rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\layout_fragment_dashboard.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\drawable_bg_dashed_border.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\drawable\\bg_dashed_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\layout_item_categorie.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\item_categorie.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\drawable_tab_indicator_default.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\drawable\\tab_indicator_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\layout_item_categorie_expandable.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\item_categorie_expandable.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\drawable_ic_check.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\drawable\\ic_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\layout_fragment_settings.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\drawable_bg_action_icon_expense.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\drawable\\bg_action_icon_expense.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\drawable_bg_circle_icon.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\drawable\\bg_circle_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\drawable_bg_action_icon_income.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\drawable\\bg_action_icon_income.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\layout_fragment_transaction_detail.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\fragment_transaction_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\drawable_tab_indicator_selector.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\drawable\\tab_indicator_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\layout_fragment_list.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\fragment_list.xml"
+    },
+    {
+        "merged": "com.tp.gestiondepenses.app-merged_res-50:/layout_activity_main.xml.flat",
+        "source": "com.tp.gestiondepenses.app-main-52:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\layout_fragment_add_revenu.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\fragment_add_revenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\layout_fragment_revenus.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\fragment_revenus.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-merged_res-50:\\layout_fragment_depenses.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\fragment_depenses.xml"
+    }
+]

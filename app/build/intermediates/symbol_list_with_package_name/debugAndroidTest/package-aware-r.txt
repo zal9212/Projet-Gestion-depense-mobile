@@ -1,0 +1,3 @@
+com.tp.gestiondepenses.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

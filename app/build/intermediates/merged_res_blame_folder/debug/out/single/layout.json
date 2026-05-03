@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-mergeDebugResources-49:\\layout\\item_budget.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\item_budget.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-mergeDebugResources-49:\\layout\\fragment_list.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\fragment_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-mergeDebugResources-49:\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-mergeDebugResources-49:\\layout\\fragment_revenus.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\fragment_revenus.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-mergeDebugResources-49:\\layout\\fragment_add_depense.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\fragment_add_depense.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-mergeDebugResources-49:\\layout\\fragment_categories.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\fragment_categories.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-mergeDebugResources-49:\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-mergeDebugResources-49:\\layout\\fragment_transaction_detail.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\fragment_transaction_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-mergeDebugResources-49:\\layout\\item_transaction.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\item_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-mergeDebugResources-49:\\layout\\item_legend.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\item_legend.xml"
+    },
+    {
+        "merged": "com.tp.gestiondepenses.app-mergeDebugResources-49:/layout/activity_main.xml",
+        "source": "com.tp.gestiondepenses.app-main-52:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-mergeDebugResources-49:\\layout\\fragment_budgets.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\fragment_budgets.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-mergeDebugResources-49:\\layout\\fragment_depenses.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\fragment_depenses.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-mergeDebugResources-49:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-mergeDebugResources-49:\\layout\\fragment_add_budget.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\fragment_add_budget.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-mergeDebugResources-49:\\layout\\item_onboarding.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\item_onboarding.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-mergeDebugResources-49:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-mergeDebugResources-49:\\layout\\fragment_auth.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\fragment_auth.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-mergeDebugResources-49:\\layout\\fragment_add_categorie.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\fragment_add_categorie.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-mergeDebugResources-49:\\layout\\fragment_welcome.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\fragment_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-mergeDebugResources-49:\\layout\\fragment_add_revenu.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\fragment_add_revenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-mergeDebugResources-49:\\layout\\item_rubrique_manage.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\item_rubrique_manage.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-mergeDebugResources-49:\\layout\\item_categorie.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\item_categorie.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-mergeDebugResources-49:\\layout\\item_categorie_expandable.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.5\\com.tp.gestiondepenses.app-main-52:\\layout\\item_categorie_expandable.xml"
+    }
+]
